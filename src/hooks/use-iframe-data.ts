@@ -1,9 +1,9 @@
-import type { MutableRefObject } from 'react';
+import type { RefObject } from 'react';
 import { useEffect, useState } from 'react';
 
 type UseIframeDataProps = {
   targetOrigin: string;
-  ref?: MutableRefObject<HTMLIFrameElement | null>;
+  ref?: RefObject<HTMLIFrameElement | null>;
 };
 
 export const useIframeData = <T>({ targetOrigin, ref }: UseIframeDataProps) => {

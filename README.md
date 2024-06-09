@@ -13,7 +13,7 @@ Going to embed a webpage as an iframe within this web application. This webpage 
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/nunatass/nextjs-simple-boilerplate
+git clone https://github.com/nunatass/gth-task.git
 ```
 
 
